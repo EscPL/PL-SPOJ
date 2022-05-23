@@ -17,4 +17,6 @@ int main()
     for (int i = 0; i <= number; i += 2) {
         cout << i << " ";
     }
+    
+    return 0;
 }
