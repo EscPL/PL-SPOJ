@@ -21,7 +21,7 @@ int main()
         sum += 7 * (digits[2] + digits[6]);
         sum += 9 * (digits[3] + digits[7]);
 
-        if (sum % 10 == 0) cout << "D" << endl;
+        if (sum > 0 && sum % 10 == 0) cout << "D" << endl;
         else cout << "N" << endl;
     }
     return 0;
